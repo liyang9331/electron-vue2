@@ -1,0 +1,194 @@
+html,
+body {
+    font-family: PingFangSC-Semibold, PingFang SC;
+}
+
+$colot_theme: #0190E3;
+
+.theme_text {
+    color: $colot_theme !important;
+}
+
+// 左侧菜单栏样式
+.left_menu {
+    width: 100px;
+    background-color: #fff;
+    padding: 0 10px;
+
+    .active {
+        .img_box {
+            background: rgba(149, 224, 255, 0.1);
+            border-radius: 40px;
+        }
+
+        .text {
+            color: #0190e3;
+        }
+    }
+
+    .left-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        .img_box {
+            width: 72px;
+            height: 72px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 38px;
+                height: 38px;
+            }
+        }
+
+        .text {
+            font-size: 14px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #000a12;
+            line-height: 22px;
+        }
+    }
+}
+
+// 弹窗的公共样式
+
+.el-dialog {
+    margin: 70px auto;
+    margin-bottom: 0px;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px 0px #e5e9f2;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.el-dialog__header {
+    border-bottom: 1px solid #f1f1f1;
+    margin-right: 0px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+
+    span {
+        font-size: 16px;
+        font-weight: 600;
+        color: #1f263e;
+        line-height: 22px;
+    }
+}
+
+.el-dialog__body {
+    max-height: calc(100vh - 180px);
+    overflow: hidden;
+}
+
+.el-step {
+    font-size: 14px !important;
+}
+
+.is-process {
+    color: $colot_theme !important;
+    font-weight: 600 !important;
+}
+
+.is-finish {
+    color: #1F263E !important;
+    font-weight: 400 !important;
+}
+
+.is-wait {
+    font-weight: 400 !important;
+    color: rgba(31, 38, 62, 0.6) !important;
+}
+
+.is-process {
+    .el-step__icon {
+        border: none;
+        background: linear-gradient(180deg, #7af2e4 0%, #0190e3 100%);
+        color: #ffffff;
+    }
+}
+
+.is-finish {
+    .el-step__icon {
+        border-color: transparent;
+        background-image: linear-gradient(#fff, #fff), linear-gradient(180deg, rgba(121, 241, 228, 1), rgba(2, 145, 227, 1));
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        color: #0190E3 !important;
+    }
+}
+
+.el-step__icon {
+    border: 2px solid rgba(31, 38, 62, 0.6);
+    color: rgba(31, 38, 62, 0.6);
+}
+
+
+.el-button--primary {
+    background-color: $colot_theme;
+}
+
+.el-button--primary:hover {
+    background: $colot_theme;
+}
+
+.el-button--primary:focus-visible {
+    background: $colot_theme;
+}
+
+.el-button--primary:active {
+    background: $colot_theme;
+}
+
+.el-table__header {
+    tr th {
+        background: #F1F1F1 !important;
+        color: rgba(31, 38, 62, 0.5);
+        ;
+    }
+}
+
+.el-table__body {
+    td {
+        font-weight: 400;
+        color: #1F263E;
+        line-height: 22px;
+        padding: 10px 0 !important;
+    }
+}
+
+
+
+
+// 滚动条的样式
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 4px;
+}
+
+::v-deep .el-table__header {
+    width: 100% !important;
+}
+
+::v-deep .el-table__body {
+    width: 100% !important;
+}
+
+.maptalks-attribution {
+    display: none;
+}

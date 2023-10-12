@@ -1,0 +1,398 @@
+{
+    "code": "ok",
+    "info": "查询中类及其子类资产列表成功！",
+    "result": [
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "sszlLegend": {
+                "fillColor": "#ee00ff",
+                "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG.png",
+                "featureType": "kjyslx_polygon",
+                "lineColor": "#ee00ff",
+                "opacity": 0.05,
+                "lineWidth": 1.0
+            },
+            "sszlId": 4,
+            "featureType": "kjyslx_polygon",
+            "shjZcflSsxl": [
+                {
+                    "ssxlId": 83,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_01.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#ff4d4f",
+                        "opacity": 0.5,
+                        "lineWidth": 3.0
+                    },
+                    "ssxlName": "污水管"
+                },
+                {
+                    "ssxlId": 86,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_04.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#ee00ff",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "截污管"
+                },
+                {
+                    "ssxlId": 89,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_07.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "雨水口"
+                },
+                {
+                    "ssxlId": 88,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_06.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "截流井"
+                },
+                {
+                    "ssxlId": 87,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_05.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "检查井"
+                },
+                {
+                    "ssxlId": 92,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_99.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "其他设施"
+                },
+                {
+                    "ssxlId": 85,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_03.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#6814fa",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "合流管"
+                },
+                {
+                    "ssxlId": 84,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_02.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#3cb700",
+                        "opacity": 0.5,
+                        "lineWidth": 3.0
+                    },
+                    "ssxlName": "雨水管"
+                },
+                {
+                    "ssxlId": 90,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_08.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "排水口"
+                },
+                {
+                    "ssxlId": 91,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_PG_98.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "其他建（构）筑物"
+                }
+            ],
+            "sszlNm": "排水管网及附属设施"
+        },
+        {
+            "sszlLegend": {
+                "fillColor": "#c04ad6",
+                "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG.png",
+                "featureType": "kjyslx_polygon",
+                "lineColor": "#c04ad6",
+                "opacity": 0.5,
+                "lineWidth": 2.0
+            },
+            "sszlId": 5,
+            "featureType": "kjyslx_polygon",
+            "shjZcflSsxl": [
+                {
+                    "ssxlId": 104,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_12.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "消防井"
+                },
+                {
+                    "ssxlId": 102,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_10.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "检修井"
+                },
+                {
+                    "ssxlId": 103,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_11.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "阀门井"
+                },
+                {
+                    "ssxlId": 105,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_13.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "水表井"
+                },
+                {
+                    "ssxlId": 107,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_15.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "排泥湿井"
+                },
+                {
+                    "ssxlId": 109,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_99.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "其他设施"
+                },
+                {
+                    "ssxlId": 106,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_14.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "水源井"
+                },
+                {
+                    "ssxlId": 100,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_08.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#ee00ff",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "循环水管"
+                },
+                {
+                    "ssxlId": 95,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_03.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#ff4d4f",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "中水管"
+                },
+                {
+                    "ssxlId": 97,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_05.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#066fff",
+                        "opacity": 0.5,
+                        "lineWidth": 5.0
+                    },
+                    "ssxlName": "直饮水管"
+                },
+                {
+                    "ssxlId": 98,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_06.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#c40000",
+                        "opacity": 0.5,
+                        "lineWidth": 5.0
+                    },
+                    "ssxlName": "消防水管"
+                },
+                {
+                    "ssxlId": 101,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_09.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#ff8800",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "生态补水管"
+                },
+                {
+                    "ssxlId": 94,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_02.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#6814fa",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "输水管"
+                },
+                {
+                    "ssxlId": 93,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_01.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#00b9bf",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "原水管"
+                },
+                {
+                    "ssxlId": 99,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_07.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#3cb700",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "绿化水管"
+                },
+                {
+                    "ssxlId": 96,
+                    "featureType": "kjyslx_line",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_04.png",
+                        "featureType": "kjyslx_line",
+                        "lineColor": "#a53eff",
+                        "opacity": 0.5,
+                        "lineWidth": 6.0
+                    },
+                    "ssxlName": "配水管"
+                },
+                {
+                    "ssxlId": 108,
+                    "featureType": "kjyslx_point",
+                    "ssxlLegend": {
+                        "fillColor": null,
+                        "pointPictureUrl": "https://weam.capitalwater.cn/assets-oss/bucket/scshj/layerManage/H_GG_98.png",
+                        "featureType": "kjyslx_point",
+                        "lineColor": null,
+                        "opacity": 0.5,
+                        "lineWidth": null
+                    },
+                    "ssxlName": "其他建（构）筑物"
+                }
+            ],
+            "sszlNm": "给水管网及附属设施"
+        }
+    ]
+}

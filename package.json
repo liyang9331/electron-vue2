@@ -1,0 +1,82 @@
+{
+  "name": "electron-vue2-test",
+  "appName": "地名管理系统",
+  "version": "0.1.0",
+  "private": true,
+  "main": "background.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@electron/remote": "^2.0.12",
+    "@turf/turf": "^6.5.0",
+    "@wangeditor/editor-for-vue": "^1.0.2",
+    "aws-sdk": "^2.1255.0",
+    "axios": "^1.1.3",
+    "core-js": "^3.6.5",
+    "echarts": "^5.4.3",
+    "electron-log": "^4.4.8",
+    "element-ui": "^2.15.14",
+    "html2canvas": "^1.3.4",
+    "http-server": "^14.1.0",
+    "image-size": "^1.0.0",
+    "js-pinyin": "^0.1.9",
+    "jszip": "^3.7.1",
+    "maptalks": "^1.0.0-rc.14",
+    "mock-aws-s3": "^4.0.2",
+    "moment": "^2.29.1",
+    "nock": "^13.2.9",
+    "node-stream-zip": "^1.15.0",
+    "proj4": "^2.8.0",
+    "rebuild": "^0.1.2",
+    "shpjs": "^4.0.4",
+    "sqlite3": "^5.1.6",
+    "vue": "^2.7.14",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.18.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.4.4",
+    "@vue/cli-plugin-eslint": "~4.4.4",
+    "@vue/cli-plugin-router": "^4.4.6",
+    "@vue/cli-plugin-vuex": "^4.4.6",
+    "@vue/cli-service": "~4.4.4",
+    "babel-eslint": "^10.1.0",
+    "electron": "^19.1.9",
+    "electron-devtools-installer": "^3.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.44.0",
+    "sass-loader": "8.0.2",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-cli-plugin-electron-builder": "~2.1.1",
+    "vue-template-compiler": "^2.6.11",
+    "worker-loader": "^3.0.8"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
